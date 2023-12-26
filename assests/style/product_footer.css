@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.footer-wrapper {
+  position: relative;
+  background: #1D2547;
+  color: #fff;
+}
+.footer-wrapper .footer-top-area {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.footer-wrapper .footer-top-area .container {
+  max-width: 1200px;
+}
+.footer-wrapper .footer-top-area .container .row .col-left {
+  margin-top: 100px;
+}
+.footer-wrapper .footer-top-area .container .row .col-left .cap {
+  margin-top: 40px;
+}
+.footer-wrapper .footer-top-area .container .row .col-left .cap p {
+  color: #C2C5DB;
+  font-size: 16px;
+}
+.footer-wrapper .footer-top-area .container .row .col-left .social {
+  margin-top: 50px;
+}
+.footer-wrapper .footer-top-area .container .row .col-left .social a {
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 14px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  margin-right: 8px;
+  border: 1px solid #fff;
+}
+.footer-wrapper .footer-top-area .container .row .col {
+  margin-top: 100px;
+}
+.footer-wrapper .footer-top-area .container .row .col .title h4 {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 40px;
+  font-weight: 500;
+}
+.footer-wrapper .footer-top-area .container .row .col .title ul {
+  list-style: none;
+  padding-left: 0;
+}
+.footer-wrapper .footer-top-area .container .row .col .title ul li {
+  padding-bottom: 20px;
+}
+.footer-wrapper .footer-top-area .container .row .col .title ul li a {
+  color: #C2C5DB;
+  font-weight: 300;
+  font-size: 14px;
+  text-decoration: underline transparent;
+}
+.footer-wrapper .footer-top-area .container .row .col .title ul li a:hover {
+  text-decoration: underline;
+  color: #FD8F5F;
+}
+.footer-wrapper::before {
+  position: absolute;
+  content: "";
+  width: 25px;
+  height: 100%;
+  background: #F2E1D9;
+  bottom: 0;
+  left: 0;
+  top: 0;
+}
+.footer-bottom-area {
+  background: #1D2547;
+  margin-top: 100px;
+}
+.footer-bottom-area .container {
+  text-align: center;
+  padding: 33px 0px 20px;
+}
+.footer-bottom-area .container .row .col p {
+  color: #C2C5DB;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 2;
+  margin-bottom: 12px;
+}
+.footer-bottom-area .container .row .col p a {
+  text-decoration: none;
+  color: #FD8F5F;
+}

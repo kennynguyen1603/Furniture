@@ -1,0 +1,47 @@
+import products from "../data/products.js";
+// const $ = document.querySelector.bind(document);
+const btnDecre = document.querySelector(".inumber-decrement");
+const btnIncre = document.querySelector(".number-increment");
+const inputValue = document.querySelector(".input-number");
+
+// console.log("prod", products);
+console.log(btnDecre);
+console.log(btnIncre);
+console.log(inputValue);
+let click = 1;
+function decrement() {
+  if (click >= 1) {
+    click--;
+  }
+  inputValue.value = click;
+}
+btnDecre.onclick = decrement;
+function increment() {
+  if (click >= 0) {
+    click++;
+  }
+  inputValue.value = click;
+}
+btnIncre.onclick = increment;
+
+// const btnReload = document.querySelector(
+//   ".review_box .contact_form .text-right .btn"
+// );
+
+// function reloadPage() {
+//   window.location.assign("https://www.w3schools.com", 2000);
+// }
+
+// btnReload.onclick = reloadPage;
+
+const nav = document.querySelector(".header-sticky");
+
+const offset = nav.offsetTop;
+
+window.addEventListener("scroll", function () {
+  if (window.scrollY >= offset) {
+    nav.classList.add("sticky-bar");
+  } else {
+    nav.classList.remove("sticky-bar");
+  }
+});
