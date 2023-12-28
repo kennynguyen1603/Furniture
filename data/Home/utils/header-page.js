@@ -10,13 +10,13 @@ function renderHeaderPage() {
           <!---->
           <div class="logo1">
             <a href="home.html"
-              ><img src="./data/product-detail/image/logo.png.webp" alt
+              ><img src="./data/ProductDetails/image/logo.png.webp" alt
             /></a>
           </div>
 
           <div class="logo2">
             <a href="index.html"
-              ><img src="./data/product-detail/image/logo2.png.webp" alt
+              ><img src="./data/ProductDetails/image/logo2.png.webp" alt
             /></a>
           </div>
 
@@ -62,7 +62,7 @@ function renderHeaderPage() {
               </li>
               <li>
                 <div class="card-stor">
-                  <img src="./data/product-detail/image/card.svg" alt />
+                  <img src="./data/ProductDetails/image/card.svg" alt />
                   <span>0</span>
                 </div>
               </li>

@@ -448,7 +448,7 @@ function renderReview(id) {
                     <div class="review_item">
                       <div class="media d-flex">
                         <div class="d-flex">
-                          <img src="./image/review-1.png.webp" alt />
+                          <img src="./data/ProductDetails/image/review-1.png.webp" alt />
                         </div>
                         <div class="media-body">
                           <h4>Blake Ruiz</h4>
@@ -470,7 +470,7 @@ function renderReview(id) {
                     <div class="review_item">
                       <div class="media d-flex">
                         <div class="d-flex">
-                          <img src="./image/review-2.png.webp" alt />
+                          <img src="./data/ProductDetails/image/review-2.png.webp" alt />
                         </div>
                         <div class="media-body">
                           <h4>Blake Ruiz</h4>
@@ -492,7 +492,7 @@ function renderReview(id) {
                     <div class="review_item">
                       <div class="media d-flex">
                         <div class="d-flex">
-                          <img src="./image/review-3.png.webp" alt />
+                          <img src="./data/ProductDetails/image/review-3.png.webp" alt />
                         </div>
                         <div class="media-body">
                           <h4>Blake Ruiz</h4>
